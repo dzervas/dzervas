@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/dzervas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dzervas.gr
+  * I am dzervas (https://keybase.io/dzervas) on keybase.
+  * I have a public key with fingerprint AC33 01F0 B813 49B3 9A92  44A1 E2B5 3FA4 3864 DBFC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ac3301f0b81349b39a9244a1e2b53fa43864dbfc",
+            "host": "keybase.io",
+            "key_id": "e2b53fa43864dbfc",
+            "uid": "4b03a5d3d0bc81bec1da5a677a404b00",
+            "username": "dzervas"
+        },
+        "service": {
+            "hostname": "dzervas.gr",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1415021869,
+    "expire_in": 157680000,
+    "prev": "65d0b8eca2df25df3e2d5d57c5f1e34e2c14cfb976ee5d8c58f69db518ef377d",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owGbwMvMwMW4uFDKJeO5eQfj6QPvkxhCwltNqpWS8lMqlayqlbJTwVRaZl56alFB
+UWZeiZKVUmKysbGBYZpBkoWhsYllkrFloqWRiUmiYapRkqlxWqKJsYWZSUpSWrKS
+jlJGfjFIB9CYpMTiVL3MfKAYkBOfmQIUxaK+FCxhkmRgnGiaYpxikJRsYZiUmmyY
+kmiaaGZunmhiAJQzACksTi3KS8xNBapOqUotKkssVqrVUQIKlmUmp4KcDLIZVYFe
+ehFQY0FRfkl+cn4OUDyjpKTACqStpLIApK48NSkeakJ8UmZeCtDTQA1lqUXFmfl5
+SlaGQJXJJZkgIw1NDE0NjAwtzCx1lFIrCjKLUuMzQSpMzc0sDIAAZE1qGdBIM1Og
+HyxSkxONUtKMTFPSjFONUkxTTM2TTdMMU41NUo2SDU2S05Iszc1SU01TLJJNLdLM
+LFOSTA0tUtOMzc1TlEB+KszLV7IyBTozMR1oZHFmel5iSWlRqlItVyeTDAsDIxcD
+GysTKN4YuDgFYLG55Af/L6aetQre/9VvXhX4yH5BN+3swc9JvYwKxdkJEQeaDKNO
+520QnHo/hu/C4xNln1K2sB42On6p62YB0wwm1X791CazBY0xz/gP9TxqZpQPn83H
+mSdd0SBpsjzI58dJlqnhfct/2TFzHfl34RWDlYP79j05zXLH5z5IN1+j5Sbov9ip
+5E3wSgfDJZJ/6jfOiF+77Ef5/bUvr34+6mC9b8PM8x81PwnsX5A4u2PNr5vRx/s7
+i+uTmT8dPr/5293/E4ueWzl+WzLb7/FRkejJUzL0vR8eymG2OsmrY/RrmfPLmf7r
+zgR/tvr+Y3HjztBKi/P7BK4WhR0UqrzV5/1cMSWx7POaaYsUs443mGy7aPGVlSn7
+dlV1sm59qvDBDsY79VymjqcfvOKdenDylKmXGT+WeTS/N6iWWsKY5retTuve9jd/
+TR7qV9ft/zj9xWXd5JDmaxWHN/a7TzGOXPci5evtwxskHs+/PLHZZfu7jrLHu3kP
+/HdIXXCtctKqxWebXVk0xI95XxXZ1x5wqc+86pWa2N1Llz73fVO51L+UT/DYC0ux
+fcq3Js84fkQubPqNW0u4+CV/V2yz4Fiycv6kcwa+M93PHrThmCdf7P1p24Lai2aX
+TbVlz55rmH5A72b5u8uWqksWTrFs3JYr9/Xzld8PK1JfZzx6uGyS7q5XV5LDo1Ye
+2DQv0qfpU3Wr+R2+l1dqmhkNNasnuSzl/zFNQHZ/CgA=
+=Bcrl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dzervas
+
+==================================================================
+

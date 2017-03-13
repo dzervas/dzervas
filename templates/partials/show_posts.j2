@@ -1,0 +1,13 @@
+<div class="row centered" style="margin-top: 30px;">
+	{% for post in posts %}
+		{% from ("posts/" + post) import post_title, post_description %}
+			<div class="col-lg-4">
+				<div class="post show_posts">
+					<a href="/posts/{{ post }}">
+						<h2>{{ post_title }}</h2>
+					</a>
+					<p>{{ post_description }}</p>
+				</div>
+			</div>
+	{% endfor %}
+</div>

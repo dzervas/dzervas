@@ -27,3 +27,10 @@ social:
         title: KeyBase
         icon: fa-key
         link: https://keybase.io/dzervas
+
+posts:
+    - hello-world.html
+    - hello-world-1.html
+    - hello-world-2.html
+    - hello-world-3.html
+    - hello-world-4.html

@@ -4,7 +4,11 @@
 <meta name="description" content="{{ description }}" />
 <meta name="author" content="{{ author }}" />
 
-<title>{{ title }}</title>
+{% if post_title %}
+	<title>{{ title }} - {{ post_title }}</title>
+{% else %}
+	<title>{{ title }}</title>
+{% endif %}
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">

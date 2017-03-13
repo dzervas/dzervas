@@ -1,22 +1,27 @@
 <html lang="en">
 	<head>
-		{% include "head.j2" %}
+		{% include "partials/head.j2" %}
 	</head>
 	<body>
 		<div class="container">
 			<!-- Logo -->
-			{% include "logo.j2" %}
+			{% include "partials/logo.j2" %}
 
 			<!-- Title -->
-			{% include "header.j2" %}
+			{% include "partials/header.j2" %}
 
 			<!-- Social -->
-			{% include "social.j2" %}
+			{% include "partials/social.j2" %}
+
+			{% block content %}
+				{% include "partials/show_posts.j2" %}
+			{% endblock %}
 		</div>
 
-		<!-- Quote -->
-		{% include "quote.j2" %}
+		{% if not hide_quote %}
+			{# include "partials/quote.j2" #}
+		{% endif %}
 
-		{% include "scripts.j2" %}
+		{% include "partials/scripts.j2" %}
 	</body>
 </html>

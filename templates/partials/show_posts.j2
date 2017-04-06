@@ -4,13 +4,13 @@
 			<div class="box post show_posts">
 				{% if post.url is defined %}
 					<a href="{{ post.url }}">
-						<h2>{{ post.title }} - {{loop.index}}</h2>
+						<h2>{{ post.title }}</h2>
 					</a>
 					<p>{{ post.description }}</p>
 				{% else %}
 					{% from ("posts/" + post) import post_title, post_description %}
 					<a href="/posts/{{ post }}">
-						<h2>{{ post_title }} - {{loop.index}}</h2>
+						<h2>{{ post_title }}</h2>
 					</a>
 					<p>{{ post_description }}</p>
 				{% endif %}
@@ -19,7 +19,7 @@
 	{% endfor %}
 {% endmacro %}
 
-{# Jinja2 indexes starting with 1 and not 0 #}
+{# Jinja2 indexes starting with 1 and not 0 in loops #}
 
 <div class="row centered" style="margin-top: 30px;">
 	<div class="col-sm-4 col-xs-12">

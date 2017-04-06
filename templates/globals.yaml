@@ -34,3 +34,7 @@ posts:
     - hello-world-2.html
     - hello-world-3.html
     - hello-world-4.html
+    - url: https://github.com/panagiks/RSPET
+      title: RSPET
+      icon: fa-github
+      description: A cool post exploitation toolkit in python

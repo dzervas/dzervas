@@ -92,7 +92,8 @@ h1 {
 	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica,
 				 Arial, sans-serif;
 	line-height: 1.5;
-	padding: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 .show_posts h2 {

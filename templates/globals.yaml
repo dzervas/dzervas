@@ -29,11 +29,6 @@ social:
         link: https://keybase.io/dzervas
 
 posts:
-    - hello-world.html
-    - hello-world-1.html
-    - hello-world-2.html
-    - hello-world-3.html
-    - hello-world-4.html
     - url: https://github.com/panagiks/RSPET
       title: RSPET
       icon: fa-github

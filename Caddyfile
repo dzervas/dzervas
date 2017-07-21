@@ -1,0 +1,11 @@
+localhost:2015 {
+	tls off
+
+	log stdout
+	errors stdout
+
+	markdown {
+		ext .txt .md .html
+		template templates/index.html
+	}
+}

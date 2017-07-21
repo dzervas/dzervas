@@ -1,7 +1,5 @@
 ---
-template: index
 title: Hello World
-sitename: DZervas
 ---
 
 This is the thrid time I re-write my blog from scratch. Or forth?

@@ -1,11 +1,9 @@
-{% extends "partials/post.j2" %}
+---
+template: index
+title: Hello World
+sitename: DZervas
+---
 
-{% set post_title = "Hello World" %}
-{% set post_description = "For the third, and I hope the last time" %}
-{% set post_date = "13 April 2017" %}
-
-{% block post_content %}
-{% filter markdown %}
 This is the thrid time I re-write my blog from scratch. Or forth?
 
 I tried Makefile - to its extremes (dear god those regexes). Then nodejs with
@@ -23,5 +21,3 @@ game controller using just an AVR and a BT module - compatible with most
 systems
 
 Have fun and code on!
-{% endfilter %}
-{% endblock %}

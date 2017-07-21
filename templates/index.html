@@ -1,27 +1,76 @@
 <html lang="en">
 	<head>
-		{% include "partials/head.j2" %}
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Coding is fun, but breaking code is funnier." />
+		<meta name="author" content="Dimitris Zervas" />
+
+		<title>{{.Doc.title}} - DZervas' blog</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/css/font-awesome.min.css">
+
+		<!-- Custom styles for this template -->
+		<link rel="stylesheet" href="/static/css/main.css">
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald:400,300,700|EB+Garamond">
 	</head>
 	<body>
 		<div class="container">
 			<!-- Logo -->
-			{% include "partials/logo.j2" %}
+			<div class="logo">
+				<a href="/"><img src="/assets/images/logo.svg" width="100"></a>
+			</div>
 
 			<!-- Title -->
-			{% include "partials/header.j2" %}
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2 w">
+					<h1>{{.Doc.title}}</h1>
+					<h3>{{.Doc.description}}</h3>
+				</div>
+			</div>
 
 			<!-- Social -->
-			{% include "partials/social.j2" %}
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2 w tooltip-demo">
+					<a data-toggle="tooltip" title="E-Mail" href="mailto:dzervas@dzervas.gr" target="_blank"><i class="fa fa-envelope"></i></a>
+					<a data-toggle="tooltip" title="Twitter" href="https://twitter.com/dzervasgr" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/dimitris-zervas-8b900041/" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a data-toggle="tooltip" title="GitHub" href="https://github.com/dzervas" target="_blank"><i class="fa fa-github"></i></a>
+					<a data-toggle="tooltip" title="KeyBase" href="https://keybase.io/dzervas" target="_blank"><i class="fa fa-key"></i></a>
+				</div>
+			</div>
 
-			{% block content %}
-				{% include "partials/show_posts.j2" %}
-			{% endblock %}
+			{{if .PathMatches "/"}}
+				<div class="row centered" style="margin-top: 30px;">
+					<div class="col-sm-4 col-xs-12">
+						{{.Include "show_posts.html" 0}}
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						{{.Include "show_posts.html" 1}}
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						{{.Include "show_posts.html" 2}}
+					</div>
+				</div>
+			{{else}}
+				{{.Doc.body}}
+			{{end}}
 		</div>
 
-		{% if not hide_quote %}
-			{# include "partials/quote.j2" #}
-		{% endif %}
+		<script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="/static/js/jquery.backstretch.min.js" type="text/javascript"></script>
 
-		{% include "partials/scripts.j2" %}
+		<script>
+			$.backstretch("/static/images/bg.jpg", { speed: 0.5});
+
+			$('.tooltip-demo').tooltip({
+				selector: "[data-toggle=tooltip]",
+				container: "body"
+			});
+		</script>
 	</body>
 </html>

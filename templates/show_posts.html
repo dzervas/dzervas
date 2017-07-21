@@ -1,0 +1,12 @@
+{{range $key, $post := .Files "posts/"}}
+	{{if Mod $key 2 eq index .Args 0}}
+		<div class="box post show_posts">
+			{{if not $post.IsDir}}
+				<a href="{{$post.Name}}">
+					<h2>{{$post.Title}}</h2>
+				</a>
+				<p>{{$post.Description}}</p>
+			{{end}}
+		</div>
+	{{end}}
+{{end}}

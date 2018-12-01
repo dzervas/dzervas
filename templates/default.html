@@ -7,7 +7,7 @@
 		<meta name="author" content="Dimitris Zervas" />
 		<meta name="google-site-verification" content="UaAmwHutX1HWb0n8-1jP7OfUf2EYARMy5G8zJsDR0do" />
 
-		<title>{{.Doc.title}} - DZervas' blog</title>
+		<title>{{page.title}} - DZervas' blog</title>
 
 		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
 			<!-- Title -->
 			<div class="row centered">
 				<div class="col-lg-8 col-lg-offset-2 w">
-					<h1>{{.Doc.title}}</h1>
+					<h1>{{page.title}}</h1>
 					<h3>{{.Doc.description}}</h3>
 				</div>
 			</div>
@@ -37,33 +37,31 @@
 			<div class="row centered">
 				<div class="col-lg-8 col-lg-offset-2 w tooltip-demo">
 					<a data-toggle="tooltip" title="E-Mail" href="mailto:dzervas@dzervas.gr" target="_blank"><i class="fa fa-envelope"></i></a>
-					<a data-toggle="tooltip" title="Twitter" href="https://twitter.com/dzervasgr" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a data-toggle="tooltip" title="Twitter" href="https://twitter.com/_dzervas" target="_blank"><i class="fa fa-twitter"></i></a>
 					<a data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/dimitris-zervas-8b900041/" target="_blank"><i class="fa fa-linkedin"></i></a>
 					<a data-toggle="tooltip" title="GitHub" href="https://github.com/dzervas" target="_blank"><i class="fa fa-github"></i></a>
 					<a data-toggle="tooltip" title="KeyBase" href="https://keybase.io/dzervas" target="_blank"><i class="fa fa-key"></i></a>
 				</div>
 			</div>
 
-			{{if eq .URI "/"}}
+			{{if eq page.url "/"}}
 				<div class="grid centered" style="margin-top: 30px;">
-					{{range .Files}}
-						{{if and (eq ($.Ext .Name) ".md") (ne .Name "index.md")}}
-							<div class="grid-item col-sm-4 col-xs-12">
-								<div class="box post show_posts">
-									<a href="{{.Name}}">
-										<h2>{{.Name}}</h2>
-									</a>
-									<p>{{.Summarize 20}}</p>
-								</div>
+					{{for p in site.posts}}
+						<div class="grid-item col-sm-4 col-xs-12">
+							<div class="box post show_posts">
+								<a href="{{p.url}}">
+									<h2>{{p.title}}</h2>
+								</a>
+								<p>{{p.content | truncatewords 20}}</p>
 							</div>
-						{{end}}
+						</div>
 					{{end}}
 				</div>
 			{{else}}
 				<div class="row centered">
 					<div class="col-lg-10 col-lg-offset-1 w post">
-						<i>{{.Doc.date}}</i>
-						<p>{{.Doc.body}}</p>
+						<i>{{page.date}}</i>
+						<p>{{page.content}}</p>
 					</div>
 				</div>
 			{{end}}

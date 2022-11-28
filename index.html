@@ -1,0 +1,62 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Coding is fun, but breaking code is funnier." />
+		<meta name="author" content="Dimitris Zervas" />
+		<meta name="google-site-verification" content="UaAmwHutX1HWb0n8-1jP7OfUf2EYARMy5G8zJsDR0do" />
+
+		<title>Home - DZervas' blog</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+		<!-- Custom styles for this template -->
+		<link rel="stylesheet" href="/assets/css/main.css">
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald:400,300,700|EB+Garamond">
+	</head>
+	<body>
+		<div class="container">
+			<!-- Logo -->
+			<div class="logo">
+				<a href="/"><img src="/assets/images/logo.svg" width="100"></a>
+			</div>
+
+			<!-- Title -->
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2 w">
+					<h1>Home</h1>
+					<h3>Making through breaking</h3>
+				</div>
+			</div>
+
+			<!-- Social -->
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2 w tooltip-demo">
+					<a data-toggle="tooltip" title="E-Mail" href="mailto:dzervas@dzervas.gr" target="_blank"><i class="fas fa-envelope"></i></a>
+					<a data-toggle="tooltip" title="Mastodon" rel="me" href="https://kafeneio.social/@dzervas" target="_blank"><i class="fab fa-mastodon"></i></a>
+					<a data-toggle="tooltip" title="Blog" href="https://whynot.fail" target="_blank"><i class="fas fa-blog"></i></a>
+					<a data-toggle="tooltip" title="GitHub" href="https://github.com/dzervas" target="_blank"><i class="fab fa-github"></i></a>
+					<a data-toggle="tooltip" title="KeyBase" href="https://keybase.io/dzervas" target="_blank"><i class="fab fa-keybase"></i></a>
+					<a data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/dimitris-zervas-8b900041/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="/assets/js/jquery.backstretch.min.js" type="text/javascript"></script>
+		<script src="/assets/js/masonry.pkgd.min.js" type="text/javascript"></script>
+
+		<script>
+			$.backstretch("/assets/images/bg.jpg", { speed: 0.5});
+
+			$('.tooltip-demo').tooltip({
+				selector: "[data-toggle=tooltip]",
+				container: "body"
+			});
+		</script>
+	</body>
+</html>

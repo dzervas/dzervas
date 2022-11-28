@@ -1,0 +1,61 @@
+==================================================================
+https://keybase.io/dzervas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dzervas.gr
+  * I am dzervas (https://keybase.io/dzervas) on keybase.
+  * I have a public key ASAJ2jaJdspD4tIr-GmDpS0zLy-jwSX6dESK9VuMZ25NwAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019cdf00ac28ffd06edd61152b1c68c3e0609b928b806566255b274f29339f48240a",
+      "host": "keybase.io",
+      "kid": "012009da368976ca43e2d22bf86983a52d332f2fa3c125fa74448af55b8c676e4dc00a",
+      "uid": "4b03a5d3d0bc81bec1da5a677a404b00",
+      "username": "dzervas"
+    },
+    "merkle_root": {
+      "ctime": 1508077960,
+      "hash": "1a634e923acd36f06641b106a4ae20498defd8c849c165d5c03cdea9f8ce7ece5e89999890fb05d0385e52ea9f5a81eb1dbd9ef9d50f71d9db4fd2ef9246a20a",
+      "hash_meta": "28f37f8cd1ac1c56e8abfaa1373e30bdb23010dbe733eb85191df11e6e4e9f87",
+      "seqno": 1580912
+    },
+    "service": {
+      "hostname": "dzervas.gr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1508078020,
+  "expire_in": 504576000,
+  "prev": "ae46736906196471ae555b425e3dbdabc92ca9aded3ff631d506278fc31e93cf",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCdo2iXbKQ+LSK/hpg6UtMy8vo8El+nREivVbjGduTcAKp3BheWxvYWTFA0J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOWNkZjAwYWMyOGZmZDA2ZWRkNjExNTJiMWM2OGMzZTA2MDliOTI4YjgwNjU2N
+jI1NWIyNzRmMjkzMzlmNDgyNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDlkYTM2ODk3NmNhNDNlMmQyMmJmODY5ODNhNTJkMzMyZjJmYTNjMTI1ZmE3NDQ0OGFmNTViOGM2NzZlNGRjMDBhIiwidWlkIjoiNGIwM2E1ZDNkMGJjODFiZWMxZGE1YTY3N2E0MDRiMD
+AiLCJ1c2VybmFtZSI6ImR6ZXJ2YXMifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDgwNzc5NjAsImhhc2giOiIxYTYzNGU5MjNhY2QzNmYwNjY0MWIxMDZhNGFlMjA0OThkZWZkOGM4NDljMTY1ZDVjMDNjZGVhOWY4Y2U3ZWNlNWU4OTk5OTg5MGZiMDVkMDM4NWU1MmVhOWY1YTg
+xZWIxZGJkOWVmOWQ1MGY3MWQ5ZGI0ZmQyZWY5MjQ2YTIwYSIsImhhc2hfbWV0YSI6IjI4ZjM3ZjhjZDFhYzFjNTZlOGFiZmFhMTM3M2UzMGJkYjIzMDEwZGJlNzMzZWI4NTE5MWRmMTFlNmU0ZTlmODciLCJzZXFubyI6MTU4MDkxMn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJkemVy
+dmFzLmdyIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDgwNzgwMjAsImV4cGlyZV9pb
+iI6NTA0NTc2MDAwLCJwcmV2IjoiYWU0NjczNjkwNjE5NjQ3MWFlNTU1YjQyNWUzZGJkYWJjOTJjYTlhZGVkM2ZmNjMxZDUwNjI3OGZjMzFlOTNjZiIsInNlcW5vIjoyNywidGFnIjoic2lnbmF0dXJlIn2jc2lnxECvAGIvwtLaAVOvsCnobNwPISkPXPUI8GIv8xWlywnOAYbl/72Z/J
+guF0cC4Q1YxH3eh4utq+c8WzV6+o9p0ggIqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQggyVlLfDR/ixdf8Ckt3c1oBue63Aw/K3o/yoyA9gXdWmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dzervas
+
+==================================================================

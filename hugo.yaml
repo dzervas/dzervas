@@ -17,10 +17,10 @@ params:
     enabled: true
     title: Dimitris Zervas
     subtitle: Making through braking
-    imageUrl: "https://github.com/dzervas/dzervas/raw/master/assets/images/logo.svg"
+    imageUrl: "https://github.com/dzervas/dzervas/raw/main/assets/images/logo.svg"
 
   assets:
-    favicon: "https://github.com/dzervas/dzervas/raw/master/assets/images/logo.svg"
+    favicon: "https://github.com/dzervas/dzervas/raw/main/assets/images/logo.svg"
 
   socialIcons:
     - name: email

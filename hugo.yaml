@@ -1,0 +1,35 @@
+baseURL: https://dzervas.gr/
+languageCode: en-us
+title: DZervas
+description: Making through braking
+copyright: >
+    DZervas P.C. |
+    Location: Knosou 64, Alimos, 174 55, Athens, Greece |
+    Tax ID: 802163321 |
+
+
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: Dimitris Zervas
+    subtitle: Making through braking
+    imageUrl: "https://github.com/dzervas/dzervas/raw/master/assets/images/logo.svg"
+
+  assets:
+    favicon: "https://github.com/dzervas/dzervas/raw/master/assets/images/logo.svg"
+
+  socialIcons:
+    - name: email
+      url: "mailto:dzervas@dzervas.gr"
+    - name: blog
+      url: "https://whynot.fail"
+    - name: mastodon
+      url: "https://kafeneio.social/@dzervas"
+    - name: github
+      url: "https://github.com/dzervas"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/dimitris-zervas-8b900041/"

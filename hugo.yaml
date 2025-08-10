@@ -2,11 +2,6 @@ baseURL: https://dzervas.gr/
 languageCode: en-us
 title: DZervas
 description: Making through braking
-copyright: >
-    DZervas P.C. |
-    Location: Knosou 64, Alimos, 174 55, Athens, Greece |
-    Tax ID: 802163321 |
-
 
 module:
   imports:
@@ -32,4 +27,4 @@ params:
     - name: github
       url: "https://github.com/dzervas"
     - name: linkedin
-      url: "https://www.linkedin.com/in/dimitris-zervas-8b900041/"
+      url: "https://www.linkedin.com/in/dzervasgr/"
